@@ -1,0 +1,108 @@
+nav, img{
+    position: absolute;
+    width: 100%;
+    height: 123px;
+    left: 0px;
+    top: 20.81px;
+}
+
+.ceklis-1{
+    position: absolute;
+    width: 394px;
+    height: 69px;
+    left: 34%;
+    top: 237px;
+}
+
+.compo-5{
+    position: absolute;
+    width: 393px;
+    height: 521px;
+    left: 35%;
+    top: 422px;
+}
+
+.form-nama{
+    position: absolute;
+    width: 393px;
+    height: 369px;
+    left: 523px;
+    top: 1043px;
+}
+
+.form-alamat{
+    position: absolute;
+    width: 393px;
+    height: 369px;
+    left: 523px;
+    top: 1120px;
+}
+
+.form-no-hp{
+    position: absolute;
+    width: 393px;
+    height: 369px;
+    left: 523px;
+    top: 1200px;
+}
+
+.btn-cb{
+    box-sizing:border-box;
+    position: absolute;
+    width: 182px;
+    height: 43px;
+    left: 42%;
+    top: 1300px;
+    background-color: #FF70DF;
+    border-radius: 10px;
+}
+
+.btn-cb:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.btn-cancel{
+    box-sizing:border-box;
+    position: absolute;
+    width: 182px;
+    height: 43px;
+    left: 42%;
+    top: 1400px;
+    background-color: #FF70DF;
+    border-radius: 10px;
+}
+
+.btn-cancel:hover{
+    background-color: #000000;
+    color: white;
+}
+
+tengah{
+    background-color: rgb(pink, pink ,plum);
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 252px;
+    left: -1px;
+    top: 1500px;
+    background: #D9D9D9;
+}
+
+.text-footer{
+    position: absolute;
+    width: 90%;
+    height: 164px;
+    left: 80px;
+    top: 50px;
+}
+
+.footer-bawah{
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    left: 0px;
+    top: 250px;
+}
