@@ -294,13 +294,13 @@ article > P{
     top: 2250px;
 }
 
-.produk-1{
+/* .produk-1{
     position: absolute;
     width: 300px;
     height: 350px;
     left: 320px;
     top: 2350px;
-    
+    align: middle;
 }
 
 .produk-2{
@@ -328,7 +328,7 @@ article > P{
     left: 10px;
     top: 2350px;
     
-}
+} */
 
 .img-product-bawah{
     position: absolute;
@@ -388,3 +388,45 @@ article > P{
     left: 0px;
     top: 250px;
 }
+
+.slider {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px 0;
+    top: 2350px;
+  }
+  .slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slides::-webkit-scrollbar {
+    width: 3px;
+    height: 9px;
+  }
+  .slides::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 0px;
+  }
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slides > a > img {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 350px;
+    height: 300px;
+    margin: 0 0px 0 0px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    border: 0px solid;
+    display: flex;
+    overflow: hidden;
+    font-size: 100%;
+  }
