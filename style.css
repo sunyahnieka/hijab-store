@@ -430,3 +430,438 @@ article > P{
     overflow: hidden;
     font-size: 100%;
   }
+
+  @media screen and (min-width: 375px){
+    header ,img{
+        position: absolute;
+        width: 34px;
+        height: 36px;
+        left: 58px;
+        top: 22px;
+    
+    }
+    
+    .header1{
+        position: absolute;
+        top: -5px;
+    }
+    
+    .header1 h3{
+        position: absolute;
+        width: 129px;
+        height: 36px;
+        left: 100px;
+        top: 22px;
+    
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    
+        color: #000000;
+    }
+    
+    #register  {
+        position: absolute;
+        width: 90px;
+        height: 38px;
+        top: 16px;
+        left: 900px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+    }
+    
+    #register:hover{
+        background-color: #333;
+        color: white;
+    }
+    
+    #login {
+        position: absolute;
+        width: 90px;
+        height: 38px;
+        top: 16px;
+        left: 1000px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+    }
+    
+    #login:hover{
+        background-color: #333;
+        color: white;
+    }
+    
+    .keranjang{
+        left: 1100px;
+        top: 9.5px;
+        bottom: 0%;
+        border: 3px solid #000000;   
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    
+    li{
+        float: left;
+        word-spacing: 10px;
+    }
+    
+    .navbar{
+        bottom: -80px;
+    
+        background-color: #ff70df;
+    }
+    
+    #navbarSupportedContent{
+        margin-left: 150px;
+    }
+    
+    .form-control{
+        margin-left: 300px;
+    }
+    
+    tengah{
+        background-color: rgb(pink, pink ,plum);
+    }
+    
+    section > img{
+        position: absolute;
+        width: 446px;
+        height: 459px;
+        left: 0px;
+        top: 145px;
+        
+        background: url(asset/polkaatas.svg), url(asset/Polkabawah.svg);
+    }
+    /* KONTEN TENGAH */
+    
+    section{
+        position: absolute;
+        width: 100%;
+        height: 800px;
+        left: 0px;
+        top: 135px;
+        background: linear-gradient(104.63deg, #FFDCFA 3.01%, #FD57D8 99.09%);;
+    }
+    
+    .polka{
+        position: absolute;
+        width: 50%;
+        height: 459px;
+        left: -125px;
+        top: 0px;
+    }
+    
+    .compo{
+        position: absolute;
+        width: 30%px;
+        height: 445px;
+        left: 510px;
+        top: 50px;   
+    }
+    
+    .text-compo{
+        position: absolute;
+        width: 394px;
+        height: 79px;
+        left: 540px;
+        top: 450px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight:bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .polka-bawah{
+        position: absolute;
+        width:max-content;
+        height: 459px;
+        left: 980px;
+        top: 350px;
+    }
+    
+    
+    .btn-disco{
+        box-sizing: border-box;
+        position: absolute;
+        width: 182px;
+        height: 46.96px;
+        left: 650px;
+        top: 600px;
+    
+        background: #FF70DF;
+        border: 1px solid #000000;
+        border-radius: 10px;
+    }
+    
+    article > P{
+        position: absolute;
+        width: 171px;
+        height: 30px;
+        left: 45%;
+        top: 990px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    .img-1{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 10px;
+        top: 1100px;
+        
+    }
+    
+    .img-1:hover{
+        transform: scale(1.1);
+    }
+    
+    .img-2{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 325px;
+        top: 1100px;    
+    }
+    
+    .img-2:hover{
+        transform: scale(1.1);
+    }
+    
+    .img-3{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 645px;
+        top: 1100px;    
+    }
+    
+    .img-3:hover{
+        transform: scale(1.1);
+    }
+    
+    .img-4{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 950px;
+        top: 1100px;    
+    }
+    
+    .img-4:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    /* CONTENT HIJAB */
+    
+    #content-hijab{
+        position: absolute;
+        width: 100%;
+        height: 580px;
+        left: 0px;
+        top: 1600px;   
+        background: #FFBBF0;
+    }
+    
+    .text-grup{
+        position: absolute;
+        width: 238.25px;
+        height: 35.5px;
+        left: 40%;
+    }
+    
+    .grup-1{
+        position: absolute;
+        width: 50%;
+        height: 300px;
+        left: -5%;
+        top: 150px;  
+    }
+    
+    .grup-1:hover{
+        transform: scale(2.2);
+    }
+    
+    .grup-2{
+        position: absolute;
+        width: 50%;
+        height: 300px;
+        left: 13%;
+        top: 150px;  
+    }
+    
+    .grup-3{
+        position: absolute;
+        width: 50%;
+        height: 300px;
+        left: 31%;
+        top: 150px;  
+    }
+    
+    .grup-4{
+        position: absolute;
+        width: 50%;
+        height: 300px;
+        left: 49%;
+        top: 150px;  
+    }
+    
+    .img-product{
+        position: absolute;
+        width: 136px;
+        height: 41px;
+        left: 599px;
+        top: 2250px;
+    }
+    
+    /* .produk-1{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 320px;
+        top: 2350px;
+        align: middle;
+    }
+    
+    .produk-2{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 645px;
+        top: 2350px;
+        
+    }
+    
+    .produk-3{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 950px;
+        top: 2350px;
+        
+    }
+    
+    .produk-4{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        left: 10px;
+        top: 2350px;
+        
+    } */
+    
+    .img-product-bawah{
+        position: absolute;
+        width: 50%;
+        height: 529px;
+        left: 25%;
+        top: 2800px;
+    }
+    
+    .star{
+        position: absolute;
+        width: 280px;
+        height: 50px;
+        left: 40%;
+        top: 3350px;
+    }
+    
+    .text-hijab{
+        position: absolute;
+        width: 150px;
+        height: 58px;
+        left: 45%;
+        top: 3450px;    
+    }
+    
+    .btn-read-story{
+        position: absolute;
+        width: 182px;
+        height: 43px;
+        left: 44%;
+        top: 3520px;
+        background: #FF70DF;
+        border-radius: 10px;
+    }
+    
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 252px;
+        left: -1px;
+        top: 3600px;
+        background: #D9D9D9;
+    }
+    
+    .text-footer{
+        position: absolute;
+        width: 90%;
+        height: 164px;
+        left: 80px;
+        top: 50px;
+    }
+    
+    .footer-bawah{
+        position: absolute;
+        width: 100%;
+        height: 48px;
+        left: 0px;
+        top: 250px;
+    }
+    
+    .slider {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        margin: 30px 0;
+        top: 2350px;
+      }
+      .slides {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+      }
+      .slides::-webkit-scrollbar {
+        width: 3px;
+        height: 9px;
+      }
+      .slides::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 0px;
+      }
+      .slides::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .slides > a > img {
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        width: 350px;
+        height: 300px;
+        margin: 0 0px 0 0px;
+        transform-origin: center center;
+        transform: scale(1);
+        transition: transform 0.5s;
+        position: relative;
+        border: 0px solid;
+        display: flex;
+        overflow: hidden;
+        font-size: 100%;
+      }
+  }
