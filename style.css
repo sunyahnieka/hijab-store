@@ -431,7 +431,7 @@ article > P{
     font-size: 100%;
   }
 
-  @media screen and (min-width: 375px){
+  @media screen and (min-width: 1440px){
     header ,img{
         position: absolute;
         width: 34px;
