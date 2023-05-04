@@ -117,8 +117,8 @@ section{
     position: absolute;
     width: 50%;
     height: 459px;
-    left: -120px;
-    top: 0px;
+    left: -110px;
+    top: 12px;
 }
 
 .compo{
@@ -148,8 +148,8 @@ section{
     position: absolute;
     width:max-content;
     height: 459px;
-    left: 950px;
-    top: 350px;
+    left: 935px;
+    top: 330px;
 }
 
 
