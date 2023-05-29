@@ -75,7 +75,7 @@
         <a href="#"><img class="grup-4" src="asset/Group 6.svg" alt=""></a>
       </div>
       <div class="content-produk">
-        <img class="img-product" src="asset/product.svg" alt="">
+        <img class="img-product" src="asset/product.svg" alt="" id="product">
         <!-- <a href="detail2.html"><img class="produk-1" src="asset/Component 2.svg" alt=""></a>
         <a href="detail3.html"><img class="produk-2" src="asset/Component 3.svg" alt=""></a>
         <a href="detail4.html"><img class="produk-3" src="asset/Component 4.svg" alt=""></a>
